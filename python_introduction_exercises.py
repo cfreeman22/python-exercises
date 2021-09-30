@@ -6,4 +6,13 @@
 
 
 print("Hello, World!")
+#Inside of your hello world program, create a variable named 
+# greeting that contains the message that you will print to the console.
+
+greetings = " Hi, everybody!"
+
+
+print(greetings)
+
+
 
