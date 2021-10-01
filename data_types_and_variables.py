@@ -82,6 +82,7 @@ print(uername_no_more_than20)
 print(password_not_username)
 
 #bonus neither the username or password can start or end with whitespace
+# try with print staements
 
 print(password.startswith(' '))
 print(username.startswith(' '))
