@@ -85,7 +85,9 @@ print(password_not_username)
 # try with print staements
 
 print(password.startswith(' '))
+print(password.endswith(' '))
 print(username.startswith(' '))
+print(username.endswith(' '))
 
  
 
