@@ -62,40 +62,45 @@ else:
  i = 5
 
 while i < 15:
-    i += 1
     print(i)
+    i += 1
+
 
 
 
 #Create a while loop that will count by 2's starting with 0 and ending at 100. Follow each number with a new line.
 i = 0
 
-while i < 100:
-    i += 2
+while i <= 100:
     print(i)
+    i += 2
+    
 
 #Alter your loop to count backwards by 5's from 100 to -10.
 i = 100 
 
-while i > -10:
-    i = i - 5
+while i >= -10:
     print(i)
+    i = i - 5
+    
 
 #Create a while loop that starts at 2, 
 #and displays the number squared on each line while the number is less than 1,000,000. Output should equal:
 i = 2 
 
 while i < 1000000:
-    i *= i
     print(i)
+    i *= i
+
 
 
 # Write a loop that uses print to create the output shown below.
-i = 105 
+i = 100 
 
 while i > 5:
-    i = i - 5 
     print(i)
+    i = i - 5 
+    
     
 
 
@@ -115,8 +120,8 @@ for i in range(1,10):
 
 #Q 2c break and continue
 usernum = int(input(' Enter a positive number '))
-while usernum >0 and usernum <= 50:
-    for i in range(1, 51):
+while usernum >=0 and usernum < 50:
+    for i in range(1, 50):
         if usernum == i :
             print(f'Yikes! Skipping number: {i}')
         elif i % 2 ==0:
@@ -183,9 +188,7 @@ while i <= user_num:
     
 
 
-
-
-
+ 
 
 
 
