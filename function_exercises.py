@@ -202,15 +202,15 @@ handle_commas('1,000,000')
 # 8- Define a function named get_letter_grade. It should accept a number 
 #and return the letter grade associated with that number (A-F)
 def get_letter_grade(x):
-    if x >= 90 and x <= 100:
+    if x >= 90 :
         return 'A'
-    elif x >= 80 and x <= 89:
+    elif x >= 80:
         return 'B'
-    elif x >= 70 and x <= 79:
+    elif x >= 70:
         return 'C'
-    elif x >= 60 and x <= 69:
+    elif x >= 60:
         return 'D'
-    elif x >= 50 and x <= 59:
+    elif x >= 50:
         return 'E'
     else:
         return 'F'
